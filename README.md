@@ -1,4 +1,4 @@
-# TheCounterApp
+# The Counter App
 
 📱The Counter App, which is my first Android app, is used for counting the things at once a time. This app is based on 4 main steps: 
       1. Layout Design,
