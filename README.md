@@ -7,12 +7,17 @@
       4. Run & Testing.
       
 💡During the project I wrote some lines of code below inside main activity to click a button on the app ->
-  btn.setOnClickListener(new View.OnClickListener() {
+ 
+     
+      btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 counter_text.setText(""+increaseCounter());
             }
         });
+        
+        
+        
  After this, I created new method called 📌increaseCounter() outside of onCreate method that increases the counter variable by pre increment. A the end, I called that inside of onClick() method using setText() .
  
  
